@@ -2,7 +2,7 @@ import os
 from anki.storage import Collection
 
 # Path to Anki's collection
-ANKI_COLLECTION_PATH = os.path.expanduser("~/Anki2/User 1/collection.anki2")
+ANKI_COLLECTION_PATH = os.path.expanduser("~/Anki2/User1/collection.anki2")
 
 def open_collection():
     return Collection(ANKI_COLLECTION_PATH)
